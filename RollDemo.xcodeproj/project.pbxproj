@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		152098221DAFC3BF007A52D9 /* FMScrollSubBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520981F1DAFC3BF007A52D9 /* FMScrollSubBaseController.m */; };
+		152098231DAFC3BF007A52D9 /* FMScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152098211DAFC3BF007A52D9 /* FMScrollViewController.m */; };
+		152098261DAFC4F8007A52D9 /* PersonCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152098251DAFC4F8007A52D9 /* PersonCenterController.m */; };
 		15ECE6731DAE70AD0047DE47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ECE6721DAE70AD0047DE47 /* main.m */; };
 		15ECE6761DAE70AD0047DE47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ECE6751DAE70AD0047DE47 /* AppDelegate.m */; };
 		15ECE6791DAE70AD0047DE47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ECE6781DAE70AD0047DE47 /* ViewController.m */; };
@@ -15,6 +18,9 @@
 		15ECE6811DAE70AD0047DE47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15ECE67F1DAE70AD0047DE47 /* LaunchScreen.storyboard */; };
 		15ECE68C1DAE70AD0047DE47 /* RollDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ECE68B1DAE70AD0047DE47 /* RollDemoTests.m */; };
 		15ECE6971DAE70AD0047DE47 /* RollDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ECE6961DAE70AD0047DE47 /* RollDemoUITests.m */; };
+		15ECE6B41DAF1F210047DE47 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15ECE6B31DAF1F210047DE47 /* 1.jpg */; };
+		15ECE6B71DAF229A0047DE47 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ECE6B61DAF229A0047DE47 /* HeaderView.m */; };
+		15ECE6B91DAF22AA0047DE47 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15ECE6B81DAF22AA0047DE47 /* HeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1520981E1DAFC3BF007A52D9 /* FMScrollSubBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMScrollSubBaseController.h; sourceTree = "<group>"; };
+		1520981F1DAFC3BF007A52D9 /* FMScrollSubBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMScrollSubBaseController.m; sourceTree = "<group>"; };
+		152098201DAFC3BF007A52D9 /* FMScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMScrollViewController.h; sourceTree = "<group>"; };
+		152098211DAFC3BF007A52D9 /* FMScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMScrollViewController.m; sourceTree = "<group>"; };
+		152098241DAFC4F8007A52D9 /* PersonCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonCenterController.h; sourceTree = "<group>"; };
+		152098251DAFC4F8007A52D9 /* PersonCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonCenterController.m; sourceTree = "<group>"; };
 		15ECE66E1DAE70AD0047DE47 /* RollDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15ECE6721DAE70AD0047DE47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15ECE6741DAE70AD0047DE47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,10 @@
 		15ECE6921DAE70AD0047DE47 /* RollDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15ECE6961DAE70AD0047DE47 /* RollDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollDemoUITests.m; sourceTree = "<group>"; };
 		15ECE6981DAE70AD0047DE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15ECE6B31DAF1F210047DE47 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		15ECE6B51DAF229A0047DE47 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		15ECE6B61DAF229A0047DE47 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		15ECE6B81DAF22AA0047DE47 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +94,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1520981D1DAFC3BF007A52D9 /* FMPersonCenter */ = {
+			isa = PBXGroup;
+			children = (
+				152098201DAFC3BF007A52D9 /* FMScrollViewController.h */,
+				152098211DAFC3BF007A52D9 /* FMScrollViewController.m */,
+				1520981E1DAFC3BF007A52D9 /* FMScrollSubBaseController.h */,
+				1520981F1DAFC3BF007A52D9 /* FMScrollSubBaseController.m */,
+			);
+			path = FMPersonCenter;
+			sourceTree = "<group>";
+		};
 		15ECE6651DAE70AD0047DE47 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +128,17 @@
 		15ECE6701DAE70AD0047DE47 /* RollDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1520981D1DAFC3BF007A52D9 /* FMPersonCenter */,
+				15ECE6B31DAF1F210047DE47 /* 1.jpg */,
 				15ECE6741DAE70AD0047DE47 /* AppDelegate.h */,
 				15ECE6751DAE70AD0047DE47 /* AppDelegate.m */,
 				15ECE6771DAE70AD0047DE47 /* ViewController.h */,
 				15ECE6781DAE70AD0047DE47 /* ViewController.m */,
+				152098241DAFC4F8007A52D9 /* PersonCenterController.h */,
+				152098251DAFC4F8007A52D9 /* PersonCenterController.m */,
+				15ECE6B51DAF229A0047DE47 /* HeaderView.h */,
+				15ECE6B61DAF229A0047DE47 /* HeaderView.m */,
+				15ECE6B81DAF22AA0047DE47 /* HeaderView.xib */,
 				15ECE67A1DAE70AD0047DE47 /* Main.storyboard */,
 				15ECE67D1DAE70AD0047DE47 /* Assets.xcassets */,
 				15ECE67F1DAE70AD0047DE47 /* LaunchScreen.storyboard */,
@@ -244,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				15ECE6811DAE70AD0047DE47 /* LaunchScreen.storyboard in Resources */,
+				15ECE6B91DAF22AA0047DE47 /* HeaderView.xib in Resources */,
+				15ECE6B41DAF1F210047DE47 /* 1.jpg in Resources */,
 				15ECE67E1DAE70AD0047DE47 /* Assets.xcassets in Resources */,
 				15ECE67C1DAE70AD0047DE47 /* Main.storyboard in Resources */,
 			);
@@ -270,8 +306,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				152098261DAFC4F8007A52D9 /* PersonCenterController.m in Sources */,
+				152098231DAFC3BF007A52D9 /* FMScrollViewController.m in Sources */,
+				15ECE6B71DAF229A0047DE47 /* HeaderView.m in Sources */,
 				15ECE6791DAE70AD0047DE47 /* ViewController.m in Sources */,
 				15ECE6761DAE70AD0047DE47 /* AppDelegate.m in Sources */,
+				152098221DAFC3BF007A52D9 /* FMScrollSubBaseController.m in Sources */,
 				15ECE6731DAE70AD0047DE47 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RollDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zfm.RollDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +464,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RollDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zfm.RollDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +538,7 @@
 				15ECE69D1DAE70AD0047DE47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15ECE69E1DAE70AD0047DE47 /* Build configuration list for PBXNativeTarget "RollDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +547,7 @@
 				15ECE6A01DAE70AD0047DE47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15ECE6A11DAE70AD0047DE47 /* Build configuration list for PBXNativeTarget "RollDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +556,7 @@
 				15ECE6A31DAE70AD0047DE47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
