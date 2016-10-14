@@ -16,9 +16,13 @@
 @interface FMScrollViewController ()
 
 @property(nonatomic, assign)BOOL isLoadChilds;
-
+/**
+ *  头部视图的高度
+ */
 @property(nonatomic, assign)CGFloat headerViewHeight;
-
+/**
+ *  导航视图的高度
+ */
 @property(nonatomic, assign)CGFloat navViewHeight;
 
 @end
@@ -49,6 +53,19 @@
     
 }
 
+- (void)viewWillLayoutSubviews{
+    [super viewWillLayoutSubviews];
+    self.scrollView.frame = CGRectMake(0, 64, SCREEN_WIDTH, SCREEN_HEIGHT - 64);
+    [self initSubChildController];
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+/**
+ *  实例化子类的方法
+ */
 - (void)initSubChildController{
     
     if (self.isLoadChilds) return;
@@ -68,18 +85,11 @@
     }
     
 }
-
-- (void)viewWillLayoutSubviews{
-    [super viewWillLayoutSubviews];
-    self.scrollView.frame = CGRectMake(0, 64, SCREEN_WIDTH, SCREEN_HEIGHT - 64);
-    [self initSubChildController];
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
+/**
+ *  监听tableView滚动的通知, 改变头部视图与导航视图的位置
+ *
+ *  @param noti 将滚动的offset.y值传过来
+ */
 - (void)_fmscrollSubBaseTableScrollNoti:(NSNotification *)noti{
     
     CGFloat offsetY = [noti.object floatValue];
@@ -142,6 +152,10 @@
         _navContentView = view;
     }
     return _navContentView;
+}
+
+- (void)dealloc{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 @end
